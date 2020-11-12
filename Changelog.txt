@@ -1,0 +1,5 @@
+12/11/20 19:15 KST:
+  Version 0.0.1 release
+What's new:
+-Uploaded Main page(index.html) and main.css to GitHub
+
