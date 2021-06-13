@@ -1,141 +1,41 @@
-/* START of BODY elements */
 html {
 	height: 100%;
+
 }
 
-body {
-	height: 100%;
-	background-image: repeating-linear-gradient(to bottom left, #3B444B, navy);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
-body p {
-	color: white;
-	font-size: 1.2em;
-}
-
-body h3 {
-	color: white;
-	font-size: 1.2em;
-}
-
-#tree {
-	list-style-type: none;
-	font-family: sans-serif;
-	font-weight: bold;
-}
-
-#tree a {
-	text-decoration: none;
-}
-
-div {
-	border: 5px outset darksalmon;
-	background-color: darkcyan;
-	text-align: center;
-}
-
-#h3 {
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 2em;
-	padding-right: 2px;
-}
-
-/* END of BODY elements */
-
-/* DIV elements */
-
-div.gallery {
-	margin: 5px;
-	border: 1px solid #ccc;
-	float: left;
-	width: 180px;
-}
-
-div.gallery:hover {
-	border: 1px solid #777;
-}
-
-div.gallery img {
-	width: 100%;
-	height: auto;
-}
-
-div.desc {
-	padding: 15px;
-	text-align: center;
-}
 
 /* START of NAV elements */
+
+
 nav {
-	background-color: #6E7F80;
-	border-radius: 5px;
-}
-
-nav ul {
-	list-style-type: square;
-	border: 4px solid black;
-	border-radius: inherit;
-	font-family: sans-serif;
-	font-weight: bold;
-	padding: 16px;
-}
-nav ul li {
-    display: inline;
-	border-right: 2px solid black;
-	padding-left: 8px;
-	padding-right: 8px;
-}
-
-#grey {
-	color: grey;
-}
-
-nav ul li:last-child {
-	border-right: none;
-}
-
-nav ul li a {
-	text-decoration: none;
-	color: black;
-}
-
-nav li.selected {
-	color: #606060;
-}
-
-nav ul li a:hover {
-	text-decoration: underline;
-}
-/* END of NAV elements */ 
-
-/* Section 
-section {
-	background-color: bisque;
-}*/
-
-.dropdown {
-	position: relative;
-	display: inline-block;
-	color: white;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
 	background-color: white;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
-	padding: 12px 16px;
-	z-index: 1;
+	border: 2px solid black;
+	border-radius 2px;
+	margin-bottom: 5px;
 }
 
-.dropdown:hover .dropdown-content {
-	display: block;
+/* START of BODY elements */
+body {
+	height: 100%;
+	background-image: repeating-linear-gradient(to bottom left, #B57EDC, #FFE5B4);
+	background-attachment: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 256px;	
+	padding-top: 8px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
-.dropdown:hover .dropdown-content p {
-	color: green;
+p {
+	font-size: 125%;
 }
+
+section {
+	border: 2px solid black;
+	border-radius: 8px;
+	background-color: white;
+	
+}
+/* END of BODY elements */
